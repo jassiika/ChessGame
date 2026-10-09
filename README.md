@@ -1,16 +1,35 @@
-# React + Vite
+# Chess Game ♟️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A two-player chess game built using React and CSS, featuring an interactive chessboard, legal move validation, and essential chess rules. Play locally with a friend and keep track of every move with built-in timers and game controls.
 
-Currently, two official plugins are available:
+### Features
+- **Interactive Chessboard** – Select pieces and view their legal moves.
+- **Move Validation** – Allows only legal moves according to chess rules.
+- **Game Status Detection** – Detects check, checkmate, stalemate, and draws.
+- **Special Moves** – Supports castling, en passant, and pawn promotion.
+- **Move History** – Keeps track of moves using standard chess notation.
+- **Captured Pieces** – Displays captured pieces and material advantage.
+- **Chess Clock** – Choose from multiple time controls for both players.
+- **Game Controls** – Undo moves, flip the board, resign, or start a new game.
+- **Responsive Design** – A clean interface that adapts to different screen sizes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Tech Stack
+- React
+- JavaScript
+- CSS
+- Vite
 
-## React Compiler
+### How to Run Locally
+1. Clone the repository.
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open the local URL displayed in your terminal.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### About
+This project combines React component-based development with a JavaScript chess engine to handle piece movement, game rules, and match progression.
